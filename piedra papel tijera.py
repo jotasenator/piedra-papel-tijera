@@ -16,12 +16,13 @@ print()
 input('...presione enter cuando este listo...')
 print()
 
+contador = 1
+resultadoT = [0, 0, 0]
 
 def Todo():
-
-    contador = 1
-
-    resultadoT = [0, 0, 0]
+    
+    global contador
+    global resultadoT
 
     while True:
 
